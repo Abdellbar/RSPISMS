@@ -19,7 +19,7 @@ class SwitchLED(object):
 		elif msg=="off":
 			GPIO.output(12, GPIO.LOW) #switch off the led
 		else:
-			msg.respond("worong comande use on or off")
+			msg.respond("worong command use on or off")
 
 	def serve_forever(self):
 		while True:
